@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+#screen{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.wallpaperhub.app/cloudcache/a/7/d/3/6/9/a7d369b7c8b4ecc0f0ffe790f233cbe58b7154c0.jpg");
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.images{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-image: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+#addimg{
+  width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/019/506/625/non_2x/add-icon-design-free-vector.jpg);
+    background-size:cover;
+    border-radius: 10px;
+}
+#gallery{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-size: cover;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#theimage{
+  background-image: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border-radius: 5%;
+}
+#mainscreenplace{
+  width: 100%;
+  height: 10%;
+  margin-top: 5px;
+  background-color: #eaeaea;
+  transition: 0.5s;
+}
+#mainscreenplace:hover{
+  background-color: limegreen;
+}
+.app{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10px;
+}
+.app2{
+    text-align: center;
+}
+.descrp{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#clicker{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/636/636642.png");
+    background-size: cover;
+}
+#google{
+    background-image: url("https://images.icon-icons.com/729/PNG/512/google_icon-icons.com_62736.png");
+    background-size: cover;
+}
+#gall{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/833/833281.png");
+    background-size: cover;
+}
+#calculator{
+    background-image: url("https://d4.alternativeto.net/B0ZHYZotSDruzO2n6U9BE7oh2NokbLJHNpk4cKgY8jE/rs:fit:280:280:0/g:ce:0:0/exar:1/YWJzOi8vZGlzdC9pY29ucy93aW5kb3dzLWNhbGN1bGF0b3JfMTcwOTU0LnBuZw.png");
+    background-size: cover;
+}
+#roblox{
+    background-image: url("https://img.icons8.com/ios_filled/512/228BE6/roblox.png");
+    background-size: cover;
+}
+#discord{
+    background-image: url("https://img.freepik.com/premium-vector/discord-icon-symbol-logo-vector_75079-150.jpg");
+    background-size: cover;
+}
+.hidden {
+  display: none !important;
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #302f2f;
+  transition: 0.3s;
+  margin: 0px;
+}
+.close-btn:hover{
+  color: #5b5959;
+}
+#click-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.click-menu2 {
+  background-color: #aaaaaa;
+  width: 60%;
+  height: 80%;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+#gal-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.gal-menu2 {
+  background-color: #aaaaaa;
+  width: 60%;
+  height: 80%;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+#image-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.image-menu2 {
+  background-color: #aaaaaa;
+  width: 40%;
+  height: 60%;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+#calc-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.calc-menu2 {
+  background-color: #aaaaaa;
+  width: 380px;
+  height: 450px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+}
+
+.align{
+    text-align: center;
+}
+
+body{
+  margin: 0;
+   font-family: "Roboto", sans-serif;
+}
+.buttonent{
+  width: 42%;
+    height: 19%;
+    margin: 2%;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size:80px;
+    text-align: center;
+}
+.container {
+  background-color: #aaaaaa;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.btns-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field,
+.input-field:hover,
+.input-field:active,
+.input-field:focus {
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-field {
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif; 
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0 .2em;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: .2em;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: white;
+}
+
+
+.history {
+    width: 50vw;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    border-left: 1px solid gray;
+    height: calc(300px + 2em);
+}
+#clickclick{
+  width: 200px;
+  height: 200px;
+  border-radius: 232323px;
+  background-color: blue;
+  transition: 0.5s;
+}
+#clickclick:hover{
+  background-color: rgb(0, 94, 255);
+}
