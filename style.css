@@ -98,6 +98,10 @@ position: fixed;
     background-image: url("https://img.freepik.com/premium-vector/discord-icon-symbol-logo-vector_75079-150.jpg");
     background-size: cover;
 }
+#youtube{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/716/475/non_2x/youtube-icon-free-png.png");
+    background-size: cover;
+}
 .hidden {
   display: none !important;
 }

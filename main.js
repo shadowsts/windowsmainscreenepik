@@ -180,6 +180,11 @@ document.getElementById('google').addEventListener('dblclick', function() {
 document.getElementById('roblox').addEventListener('dblclick', function() {
    window.open("https://www.roblox.com", "_blank");
 });
+//ds
 document.getElementById('discord').addEventListener('dblclick', function() {
    window.open("https://discord.com/", "_blank");
+});
+//yt
+document.getElementById('youtube').addEventListener('dblclick', function() {
+   window.open("https://www.youtube.com/", "_blank");
 });
